@@ -18,7 +18,7 @@ const moreMenu = () => {
         <>
         <div className="card" id="moreMenu">
             {/* onClick has errors */}
-            <img src="public\menu.svg"  onClick={handleClick} />
+            <img src="\public\menu.svg"  onClick={handleClick} />
         </div>
 
         {isOpen && (
@@ -27,7 +27,7 @@ const moreMenu = () => {
                     <div id="menu-contents">
                         <div id="div_flex">
                             <h2>Creator: Kei Fong</h2>
-                            <img src="public\x-square.svg" onClick={handleClose} id="cancel_button"></img>
+                            <img src="\public\x-square.svg" onClick={handleClose} id="cancel_button"></img>
                         </div>
                         <p>Finalised date: 18 June 2025</p>
                         <p>Event: Singapore Baptist Church Retreat 2025 Day 1</p>

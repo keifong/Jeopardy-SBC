@@ -10,7 +10,7 @@ function handleClick() {
 const fullScreen = () => {
   return (
     <div className='card'id='moreMenu'>
-        <img src="public\fullscreen.png" onClick={handleClick}></img>
+        <img src="\public\fullscreen.png" onClick={handleClick}></img>
     </div>
   )
 }
